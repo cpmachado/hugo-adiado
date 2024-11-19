@@ -1,0 +1,38 @@
+body {
+  color: #222;
+  font-family: 'Courier New' monospace;
+  line-height: 1.5;
+  margin: auto;
+  border: 1px solid black;
+  padding: 3rem;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+nav ul li {
+  background-color: lightgray;
+  padding: 0.5rem;
+  display: inline;
+  margin-right: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+a {
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}

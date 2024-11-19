@@ -1,0 +1,14 @@
+name: 'adiado'
+license: 'MIT'
+licenselink: 'https://github.com/cpmachado/hugo-adiado/LICENSE'
+description: 'A dead simple minimal theme example'
+homepage: 'https://github.com/cpmachado/hugo-adiado'
+#demosite
+
+tags: ['blog', 'rebellion']
+features: ['featureless', 'simple', 'minimal']
+
+author:
+  name: 'Carlos Pinto Machado'
+  email: 'cpmachado@protonmail.com'
+  homepage: 'https://cpmachado.github.io'
