@@ -1,16 +1,25 @@
 body {
-  color: #222;
-  font-family: 'Courier New' monospace;
+  color: #444;
+  background-color: lightgoldenrodyellow;
+  font-family: 'Courier New',  monospace;
   line-height: 1.5;
   margin: auto;
-  border: 1px solid black;
-  padding: 3rem;
+  padding: 1.5rem;
   max-width: 768px;
 }
 
 header {
   border-bottom: 1px solid #222;
   margin-bottom: 1rem;
+}
+
+header h1 {
+  border: 1rem solid black;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
 }
 
 nav ul li {
@@ -22,17 +31,25 @@ nav ul li {
 
 footer {
   border-top: 1px solid #222;
-  margin-top: 1rem;
+  margin-top: 5rem;
   text-align: center;
+}
+
+nav a {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 a {
   color: black;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 a:hover {
   color: white;
   background-color: black;
+  padding: 1rem;
+}
+
+body ul {
+  margin-top: 0.25rem;
 }
